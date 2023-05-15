@@ -1,0 +1,1483 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+.phase1 {
+  width: 425px;
+  height: 500px;
+  background-color: #11aeef;
+}
+#logo2 {
+  width: 300px;
+  margin-left: 00px;
+  z-index: 0;
+  margin-top: 1px;
+}
+.span {
+  color: #11aeef;
+}
+#logoname {
+  width: 200px;
+  position: absolute;
+  z-index: 10;
+}
+.logo {
+  width: 200px;
+  height: 140px;
+}
+.menu {
+  width: 40px;
+  height: 20px;
+  background-color: transparent;
+  float: right;
+  padding-top: 8px;
+}
+.buttons {
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  float: right;
+  margin-top: -140px;
+}
+.line1,
+.line2,
+.line3 {
+  width: 35px;
+  height: 4px;
+  background-color: white;
+}
+.line2 {
+  margin-top: 5px;
+}
+.line3 {
+  margin-top: 5px;
+}
+.buttons:hover {
+  cursor: pointer;
+}
+#signbtn:hover {
+  cursor: pointer;
+  color: black;
+}
+#readmore {
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+}
+#readmore:hover {
+  background-color: #252525;
+  color: white;
+  animation-name: inner;
+  transition-duration: 1s;
+}
+@keyframes inner {
+  100% {
+    background-color: #252525;
+  }
+  60% {
+    background-color: #626262;
+  }
+  30% {
+    background-color: #a4a4a4;
+  }
+}
+#downloadbtn {
+  display: none;
+}
+#signbtn {
+  width: 70px;
+  height: 40px;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  border-radius: 10px;
+}
+#slideimg {
+  display: none;
+}
+.one {
+  width: 50%;
+  margin-left: 120px;
+  position: relative;
+}
+.slider {
+  display: flex;
+  position: relative;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  height: 250px;
+  margin-right: 50px;
+  flex-shrink: 0;
+}
+.slide h1 {
+  font-size: 30px;
+}
+.navmenu {
+  width: 200px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  background-color: transparent;
+  margin-left: -20px;
+}
+.sliderbutton {
+  width: 40px;
+  height: 10px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: black;
+}
+.sliderbutton[href="#slide_1"] {
+  background-color: white;
+}
+.phase2 {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.phase2text {
+  width: 425px;
+  height: 310px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.phase2img img {
+  display: none;
+}
+.phase2readmore {
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 5px solid #11aeef;
+  border-radius: 30px;
+  text-decoration: none;
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.phase2readmore:hover {
+  background-color: #252525;
+  cursor: pointer;
+  transition-duration: 1s;
+  animation-name: inner;
+  color: white;
+}
+.phase2 p {
+  padding: 10px;
+}
+.phase2 h1 {
+  padding: 10px;
+}
+.phase3 {
+  background-color: #11aeef;
+}
+#backimg {
+  display: none;
+}
+.phase3 h1 {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.back {
+  position: absolute;
+  z-index: -1;
+}
+
+.phase3 input {
+  position: absolute;
+  opacity: 0;
+}
+.tablabel {
+  display: flex;
+  padding: 14px;
+  justify-content: center;
+  margin: 10px 110px;
+  background-color: transparent;
+  color: black;
+}
+.tablabel:hover {
+  background-color: black;
+  color: white;
+}
+
+.tab1content,
+.tab2content,
+.tab3content,
+.tab4content {
+  height: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+#tab1:checked ~ .tab1content,
+#tab2:checked ~ .tab2content,
+#tab3:checked ~ .tab3content,
+#tab4:checked ~ .tab4content {
+  height: 350px;
+}
+
+#tab1:checked ~ .tablabel,
+#tab2:checked ~ .tablabel,
+#tab3:checked ~ .tablabel,
+#tab4:checked ~ .tablabel {
+  background-color: black;
+  color: white;
+}
+.tab1contentimg {
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.phase4 {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.phase4text {
+  width: 425px;
+  padding-top: 30px;
+  text-align: center;
+}
+.phase4text p {
+  text-align: start;
+  padding: 20px;
+  margin-left: 40px;
+}
+.phse4img {
+  display: none;
+}
+.phase5 {
+  width: 425px;
+  background-color: #0192c8;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+.formmain {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+.phase5 h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.phase5 .span {
+  color: white;
+}
+.form input {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 0px;
+  width: 300px;
+  margin-left: 60px;
+  padding-left: 10px;
+}
+textarea {
+  width: 310px;
+  height: 100px;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.form button {
+  width: 140px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.map img {
+  width: 380px;
+  padding: 20px;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer1 {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.address p {
+  color: #757575;
+  padding: 20px;
+}
+.address h2 {
+  text-align: center;
+}
+.link1 {
+  padding-left: 100px;
+}
+.link1 li {
+  padding: 5px;
+}
+i {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+.follow li {
+  list-style: none;
+  padding: 10px;
+}
+.newsletter h1 {
+  font-size: 30px;
+  text-align: start;
+  margin-left: 10px;
+}
+.newsletter input {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.newsletter button {
+  padding: 10px;
+  width: 150px;
+  background-color: #0192c8;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.follow :hover {
+  color: white;
+  background-color: black;
+}
+.link1 li:hover {
+  color: brown;
+}
+.newsletter button:hover {
+  color: black;
+}
+#footerp {
+  margin-top: 70px;
+  background-color: #0192c8;
+  padding: 20px;
+  text-align: center;
+}
+/***************************** @media only screen and (min-width: 768px){} *************************/
+@media only screen and (min-width: 768px) {
+  .phase1 {
+    width: 768px;
+    height: 500px;
+  }
+  #logo2 {
+    width: 300px;
+    margin-left: 00px;
+    margin-top: 1px;
+  }
+  #logoname {
+    width: 200px;
+  }
+  .logo {
+    width: 200px;
+    height: 140px;
+  }
+  .menu {
+    width: 40px;
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 15px;
+  }
+  .buttons {
+    width: 250px;
+    height: 40px;
+    margin-top: -125px;
+    display: flex;
+    margin-right: 20px;
+  }
+  #downloadbtn {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    display: block;
+    margin-right: 10px;
+  }
+  #downloadbtn:hover {
+    background-color: #252525;
+    color: white;
+  }
+  #signbtn {
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 35px;
+    height: 4px;
+  }
+  .line2 {
+    margin-top: 5px;
+  }
+  .line3 {
+    margin-top: 5px;
+  }
+
+  #readmore {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .slidetext p {
+    margin-top: 10px;
+  }
+  #slideimg {
+    width: 420px;
+    display: block;
+    margin-top: -20px;
+  }
+  .one {
+    width: 700px;
+    height: 350px;
+    margin-left: 60px;
+  }
+  .slider {
+    display: flex;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow: hidden;
+  }
+  .slide {
+    width: 645px;
+    height: 300px;
+    margin-right: 60px;
+    display: flex;
+  }
+  .slide h1 {
+    font-size: 35px;
+  }
+  .navmenu {
+    width: 200px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 180px;
+  }
+  .sliderbutton {
+    width: 40px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+  .phase2 {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .phase2 {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  .phase2img {
+    width: 400px;
+    height: 300px;
+  }
+  .phase2text {
+    width: 350px;
+    height: 310px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .phase2img img {
+    width: 400px;
+    display: block;
+    margin-top: 40px;
+    height: 350px;
+  }
+  .phase2readmore {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .phase3 {
+    background-color: transparent;
+  }
+  .back {
+    position: absolute;
+  }
+  #backimg {
+    width: 768px;
+    height: 500px;
+    display: flex;
+  }
+  .phase3 h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .tablabel {
+    width: 180px;
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    margin: 10px 10px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about {
+    margin-top: 110px;
+  }
+  .tablabel:hover {
+    background-color: black;
+    color: white;
+  }
+  .tab1content {
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -50px;
+    position: absolute;
+  }
+  .tab2content {
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -100px;
+    position: absolute;
+  }
+  .tab3content {
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -150px;
+    position: absolute;
+  }
+  .tab4content {
+    height: 0px;
+    margin-left: 220px;
+    overflow: hidden;
+    margin-top: -200px;
+    position: absolute;
+  }
+
+  #tab1:checked ~ .tab1content,
+  #tab2:checked ~ .tab2content,
+  #tab3:checked ~ .tab3content,
+  #tab4:checked ~ .tab4content {
+    width: 520px;
+    height: 320px;
+  }
+
+  #tab1:checked ~ .tablabel,
+  #tab2:checked ~ .tablabel,
+  #tab3:checked ~ .tablabel,
+  #tab4:checked ~ .tablabel {
+    background-color: black;
+    color: white;
+  }
+  .tab1contentimg {
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .phase4 {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+  }
+  .phase4text {
+    width: 400px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .phase4text p {
+    text-align: start;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .phse4img {
+    display: flex;
+  }
+  .phse4img img {
+    width: 360px;
+  }
+  .phase4text .phase2readmore {
+    margin-right: 230px;
+  }
+  .phase5 {
+    width: 768px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  .formmain {
+    width: 700px;
+    padding-top: 0px;
+  }
+  .form {
+    margin-top: 5px;
+    width: 300px;
+    margin-left: -30px;
+  }
+  .map {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 5px;
+  }
+  .map img {
+    width: 350px;
+  }
+  .phase5 h1 {
+    font-size: 35px;
+    text-align: start;
+    margin-left: 32px;
+  }
+  .form input {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 0px;
+    width: 300px;
+    margin-left: 60px;
+    padding-left: 10px;
+  }
+  textarea {
+    width: 310px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .form button {
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+  }
+  .footer1 {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  .address {
+    width: 300px;
+  }
+  .links {
+    width: 200px;
+  }
+  .follow {
+    width: 260px;
+  }
+  .address p {
+    color: #757575;
+    padding: 20px;
+  }
+  .address h2 {
+    text-align: start;
+    margin-left: 20px;
+  }
+  .link1 {
+    padding-left: 100px;
+  }
+  .link1 li {
+    padding: 5px;
+  }
+  i {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+  }
+  .follow li {
+    list-style: none;
+    padding: 10px;
+  }
+  .newsletter h1 {
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .newsletter input {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .newsletter button {
+    padding: 10px;
+    width: 150px;
+    background-color: #0192c8;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .follow :hover {
+    color: white;
+    background-color: black;
+  }
+  .link1 li:hover {
+    color: brown;
+  }
+  .newsletter button:hover {
+    color: black;
+  }
+  #footerp {
+    padding: 20px;
+  }
+}
+/***************************** @media only screen and (min-width: 1024px){} *************************/
+
+@media only screen and (min-width: 1024px) {
+  .phase1 {
+    width: 1024px;
+    height: 600px;
+    background-color: #11aeef;
+  }
+  #logo2 {
+    width: 300px;
+    margin-left: 00px;
+    margin-top: 1px;
+  }
+  #logoname {
+    width: 200px;
+  }
+  .logo {
+    width: 200px;
+    height: 140px;
+  }
+  .menu {
+    width: 40px;
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 15px;
+  }
+  .buttons {
+    width: 250px;
+    height: 40px;
+    margin-top: -125px;
+    display: flex;
+    margin-right: 20px;
+  }
+  #downloadbtn {
+    width: 210px;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  #downloadbtn:hover {
+    animation-name: inner;
+    transition-duration: 1s;
+  }
+  #signbtn {
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 35px;
+    height: 4px;
+  }
+  .line2 {
+    margin-top: 5px;
+  }
+  .line3 {
+    margin-top: 5px;
+  }
+
+  #readmore {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .slidetext p {
+    padding-left: 100px;
+    margin-top: 10px;
+  }
+  .slide h1 {
+    font-size: 45px;
+    margin-top: 50px;
+    padding-left: 100px;
+  }
+  #slideimg {
+    width: 550px;
+    margin-top: -20px;
+    margin-right: 70px;
+  }
+  .one {
+    width: 900px;
+    height: 350px;
+    margin-left: 60px;
+  }
+  .slider {
+    display: flex;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow: hidden;
+  }
+  .slide {
+    width: 1000px;
+    height: 400px;
+    margin-right: 60px;
+  }
+
+  .navmenu {
+    width: 200px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 330px;
+  }
+  .sliderbutton {
+    width: 40px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  .sliderbutton[href="#slide_1"] {
+    background-color: white;
+  }
+  .phase2 {
+    width: 1024px;
+    padding-bottom: 60px;
+  }
+
+  .phase2img {
+    width: 500px;
+    height: 300px;
+  }
+  .phase2img img {
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin-top: 40px;
+  }
+  .phase2text {
+    width: 514px;
+    height: 360px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .phase2readmore {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .phase2 p {
+    padding: 10px;
+    font-size: 23px;
+  }
+  .phase2 h1 {
+    padding: 10px;
+  }
+
+  #backimg {
+    width: 1024px;
+    height: 500px;
+  }
+  .inputdiv {
+    margin-left: 50px;
+  }
+  .phase3 h1 {
+    padding-bottom: 20px;
+  }
+
+  .tablabel {
+    width: 180px;
+    padding: 14px;
+    margin: 10px 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .about {
+    margin-top: 110px;
+  }
+
+  .tab1content {
+    height: 0px;
+    margin-top: -80px;
+  }
+  .tab2content {
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -160px;
+  }
+  .tab3content {
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -240px;
+  }
+  .tab4content {
+    height: 0px;
+    margin-left: 220px;
+    overflow: hidden;
+    margin-top: -320px;
+  }
+
+  #tab1:checked ~ .tab1content,
+  #tab2:checked ~ .tab2content,
+  #tab3:checked ~ .tab3content,
+  #tab4:checked ~ .tab4content {
+    width: 700px;
+    height: 320px;
+  }
+  .tab1contentimg {
+    width: 100px;
+    margin-left: 300px;
+  }
+  .about p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .phase4 {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+  }
+  .phase4text {
+    width: 500px;
+    margin-top: -90px;
+  }
+  .phase4text p {
+    text-align: start;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .phse4img {
+    margin-top: -80px;
+  }
+  .phse4img img {
+    width: 500px;
+  }
+  .phase4text .phase2readmore {
+    margin-right: 320px;
+  }
+  .phase5 {
+    width: 1024px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .formmain {
+    width: 1000px;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  .form {
+    margin-top: -30px;
+    width: 400px;
+    margin-left: -30px;
+  }
+  .map {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: -60px;
+  }
+  .map img {
+    width: 490px;
+  }
+  .phase5 h1 {
+    font-size: 35px;
+    text-align: start;
+    margin-left: 50px;
+  }
+  .form input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 10px 10px 10px 60px;
+    width: 350px;
+    padding-left: 10px;
+  }
+  textarea {
+    width: 360px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .form button {
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+  }
+  .footer1 {
+    width: 1024px;
+  }
+  .address p {
+    padding: 20px;
+  }
+  .address h2 {
+    margin-left: 20px;
+  }
+  .link1 {
+    padding-left: 100px;
+  }
+  .link1 li {
+    padding: 5px;
+  }
+  i {
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .follow li {
+    list-style: none;
+    padding: 10px;
+  }
+  .newsletter h1 {
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .newsletter input {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .newsletter button {
+    padding: 10px;
+    width: 150px;
+    background-color: #0192c8;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .follow :hover {
+    color: white;
+    background-color: black;
+  }
+  .link1 li:hover {
+    color: brown;
+  }
+  .newsletter button:hover {
+    color: black;
+  }
+  #footerp {
+    font-size: 24px;
+    padding: 30px;
+  }
+}
+/***************************** @media only screen and (min-width: 1440px){} *************************/
+
+@media only screen and (min-width: 1440px) {
+  .phase1 {
+    width: 1440px;
+    height: 750px;
+  }
+  #logo2 {
+    width: 400px;
+    margin-left: 00px;
+    margin-top: 1px;
+  }
+  #logoname {
+    width: 300px;
+  }
+  .logo {
+    width: 300px;
+    height: 140px;
+  }
+  .menu {
+    width: 40px;
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 35px;
+  }
+  .buttons {
+    width: 340px;
+    height: 50px;
+    margin-top: -125px;
+    margin-right: 20px;
+  }
+  #downloadbtn {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  #downloadbtn:hover {
+    animation-name: inner;
+    transition-duration: 1s;
+  }
+  #signbtn {
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 35px;
+    height: 4px;
+  }
+  .line2 {
+    margin-top: 5px;
+  }
+  .line3 {
+    margin-top: 5px;
+  }
+
+  #readmore {
+    width: 200px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .slidetext p {
+    padding-left: 150px;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .slide h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 150px;
+  }
+  #slideimg {
+    width: 700px;
+    margin-top: -20px;
+  }
+  .one {
+    width: 1200px;
+    height: 350px;
+    margin-left: 120px;
+    position: relative;
+  }
+  .slide {
+    width: 1300px;
+    height: 530px;
+    margin-right: 60px;
+  }
+
+  .navmenu {
+    width: 200px;
+    height: 0px;
+    margin-top: 35px;
+    justify-content: center;
+    margin-left: 500px;
+  }
+  .sliderbutton {
+    width: 40px;
+    height: 6px;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+  .sliderbutton[href="#slide_1"] {
+    background-color: white;
+  }
+  .phase2 {
+    width: 1440px;
+    padding-bottom: 60px;
+  }
+  .phase2img {
+    width: 710px;
+  }
+  .phase2img img {
+    width: 700px;
+    height: 530px;
+    margin-top: 40px;
+  }
+  .phase2text {
+    width: 714px;
+    height: 500px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .phase2readmore {
+    width: 240px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 30px;
+  }
+  .phase2 p {
+    padding: 10px;
+    font-size: 28px;
+  }
+  .phase2 h1 {
+    padding: 10px;
+    font-size: 60px;
+  }
+
+  /* phase3 */
+
+  #backimg {
+    width: 1440px;
+    height: 700px;
+  }
+  .inputdiv {
+    margin-left: 100px;
+  }
+  .phase3 h1 {
+    padding-bottom: 20px;
+    font-size: 70px;
+  }
+
+  .tablabel {
+    width: 300px;
+    padding: 14px;
+    margin: 10px 10px;
+    margin-top: 0px;
+    font-size: 33px;
+    margin-bottom: 30px;
+  }
+  .about {
+    margin-top: 110px;
+  }
+
+  .tab1content {
+    height: 0px;
+    margin-left: 340px;
+    margin-top: -97px;
+  }
+  .tab2content {
+    height: 0px;
+    margin-left: 340px;
+    margin-top: -180px;
+  }
+  .tab3content {
+    height: 0px;
+    margin-left: 340px;
+    margin-top: -270px;
+  }
+  .tab4content {
+    height: 0px;
+    margin-left: 340px;
+    margin-top: -375px;
+  }
+
+  #tab1:checked ~ .tab1content,
+  #tab2:checked ~ .tab2content,
+  #tab3:checked ~ .tab3content,
+  #tab4:checked ~ .tab4content {
+    width: 900px;
+    height: 500px;
+  }
+  .tab1contentimg {
+    width: 170px;
+    margin-left: 390px;
+  }
+  .about p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .phase4 {
+    width: 1440px;
+    margin-top: 240px;
+  }
+  .phase4text {
+    width: 750px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: start;
+    margin-left: 90px;
+  }
+  .phase4text h1 {
+    margin-left: 20px;
+  }
+  .phase4text p {
+    text-align: start;
+    padding: 10px;
+    font-size: 35px;
+  }
+  .phse4img {
+    margin-top: 50px;
+    margin-left: 00px;
+  }
+  .phse4img img {
+    width: 500px;
+  }
+  .phase4text .phase2readmore {
+    float: left;
+    margin-left: 20px;
+  }
+  .phase5 {
+    width: 1440px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .formmain {
+    width: 1400px;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  .form {
+    margin-top: 30px;
+    width: 800px;
+  }
+  .map {
+    width: 500px;
+    margin-left: -80px;
+    margin-top: 10px;
+  }
+  .map img {
+    width: 650px;
+  }
+  .phase5 h1 {
+    font-size: 45px;
+    text-align: start;
+    margin-left: 250px;
+    margin-bottom: -10px;
+    padding-top: 50px;
+  }
+  .form input {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 10px 10px 10px 60px;
+    width: 390px;
+    padding-left: 10px;
+    margin-left: 250px;
+  }
+  textarea {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-left: 250px;
+  }
+  .form button {
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 25px;
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+  }
+  .footer1 {
+    width: 1440px;
+    font-size: 35px;
+  }
+  .address {
+    width: 550px;
+  }
+  .links {
+    width: 300px;
+  }
+  .follow {
+    width: 300px;
+  }
+  .address p {
+    font-size: 30px;
+  }
+  .address h2 {
+    margin-left: 20px;
+  }
+  .link1 {
+    padding-left: 100px;
+  }
+  .link1 li {
+    padding: 5px;
+  }
+  .follow li {
+    padding: 10px;
+  }
+  .newsletter h1 {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  .newsletter input {
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .newsletter button {
+    padding: 10px;
+    width: 180px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  #footerp {
+    font-size: 24px;
+    padding: 30px;
+  }
+}
