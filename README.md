@@ -1,3 +1,5 @@
 # Dummy-Website-4
-![potohub](https://github.com/1234patil8/Dummy-Website-4/assets/77136120/498b18c9-f10d-4db5-90cc-ec126cd9abce)
-![potohub](https://github.com/1234patil8/Dummy-Website-4/assets/77136120/613d8e16-d426-4531-b68d-b4e266555bd5)
+
+https://github.com/1234patil8/Dummy-Website-4/assets/77136120/f1140f52-f127-465b-a1cc-db441840483c
+
+![potohub](https://github.com/1234patil8/Dummy-Website-4/assets/77136120/f8f195ee-ac46-41e5-9a6d-6a20a433d809)
